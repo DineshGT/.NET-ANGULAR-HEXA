@@ -1,0 +1,8 @@
+
+---DISTINCT--
+
+Select * From Customers
+
+Select DISTINCT CITY FROM CUSTOMERS
+
+Select DISTINCT CITY,STATE FROM CUSTOMERS
