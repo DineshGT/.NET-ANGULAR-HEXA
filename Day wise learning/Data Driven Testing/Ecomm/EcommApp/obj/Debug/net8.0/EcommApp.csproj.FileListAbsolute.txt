@@ -1,0 +1,11 @@
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Ecomm\EcommApp\bin\Debug\net8.0\EcommApp.deps.json
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Ecomm\EcommApp\bin\Debug\net8.0\EcommApp.dll
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Ecomm\EcommApp\bin\Debug\net8.0\EcommApp.pdb
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Ecomm\EcommApp\obj\Debug\net8.0\EcommApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Ecomm\EcommApp\obj\Debug\net8.0\EcommApp.AssemblyInfoInputs.cache
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Ecomm\EcommApp\obj\Debug\net8.0\EcommApp.AssemblyInfo.cs
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Ecomm\EcommApp\obj\Debug\net8.0\EcommApp.csproj.CoreCompileInputs.cache
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Ecomm\EcommApp\obj\Debug\net8.0\EcommApp.dll
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Ecomm\EcommApp\obj\Debug\net8.0\refint\EcommApp.dll
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Ecomm\EcommApp\obj\Debug\net8.0\EcommApp.pdb
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Ecomm\EcommApp\obj\Debug\net8.0\ref\EcommApp.dll

@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dinesh G T\\source\\repos\\MoqCaseStudy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6238C59F-FA6B-4841-ACF7-2EA2C244DC6C}|MoqCaseStudy.csproj|c:\\users\\dinesh g t\\source\\repos\\moqcasestudy\\studenttest\\studentservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6238C59F-FA6B-4841-ACF7-2EA2C244DC6C}|MoqCaseStudy.csproj|solutionrelative:studenttest\\studentservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6238C59F-FA6B-4841-ACF7-2EA2C244DC6C}|MoqCaseStudy.csproj|c:\\users\\dinesh g t\\source\\repos\\moqcasestudy\\domain\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6238C59F-FA6B-4841-ACF7-2EA2C244DC6C}|MoqCaseStudy.csproj|solutionrelative:domain\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6238C59F-FA6B-4841-ACF7-2EA2C244DC6C}|MoqCaseStudy.csproj|c:\\users\\dinesh g t\\source\\repos\\moqcasestudy\\repository\\imemorystudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6238C59F-FA6B-4841-ACF7-2EA2C244DC6C}|MoqCaseStudy.csproj|solutionrelative:repository\\imemorystudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6238C59F-FA6B-4841-ACF7-2EA2C244DC6C}|MoqCaseStudy.csproj|c:\\users\\dinesh g t\\source\\repos\\moqcasestudy\\repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6238C59F-FA6B-4841-ACF7-2EA2C244DC6C}|MoqCaseStudy.csproj|solutionrelative:repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6238C59F-FA6B-4841-ACF7-2EA2C244DC6C}|MoqCaseStudy.csproj|c:\\users\\dinesh g t\\source\\repos\\moqcasestudy\\business logic\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6238C59F-FA6B-4841-ACF7-2EA2C244DC6C}|MoqCaseStudy.csproj|solutionrelative:business logic\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\Dinesh G T\\source\\repos\\MoqCaseStudy\\Business Logic\\StudentService.cs",
+              "RelativeDocumentMoniker": "Business Logic\\StudentService.cs",
+              "ToolTip": "C:\\Users\\Dinesh G T\\source\\repos\\MoqCaseStudy\\Business Logic\\StudentService.cs",
+              "RelativeToolTip": "Business Logic\\StudentService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:46:48.787Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dinesh G T\\source\\repos\\MoqCaseStudy\\Repository\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IStudentRepository.cs",
+              "ToolTip": "C:\\Users\\Dinesh G T\\source\\repos\\MoqCaseStudy\\Repository\\IStudentRepository.cs",
+              "RelativeToolTip": "Repository\\IStudentRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:45:51.893Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IMemoryStudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Dinesh G T\\source\\repos\\MoqCaseStudy\\Repository\\IMemoryStudentRepository.cs",
+              "RelativeDocumentMoniker": "Repository\\IMemoryStudentRepository.cs",
+              "ToolTip": "C:\\Users\\Dinesh G T\\source\\repos\\MoqCaseStudy\\Repository\\IMemoryStudentRepository.cs",
+              "RelativeToolTip": "Repository\\IMemoryStudentRepository.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA5wB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:46:17.499Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Dinesh G T\\source\\repos\\MoqCaseStudy\\Domain\\Student.cs",
+              "RelativeDocumentMoniker": "Domain\\Student.cs",
+              "ToolTip": "C:\\Users\\Dinesh G T\\source\\repos\\MoqCaseStudy\\Domain\\Student.cs",
+              "RelativeToolTip": "Domain\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:44:58.676Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\Dinesh G T\\source\\repos\\MoqCaseStudy\\StudentTest\\StudentServiceTest.cs",
+              "RelativeDocumentMoniker": "StudentTest\\StudentServiceTest.cs",
+              "ToolTip": "C:\\Users\\Dinesh G T\\source\\repos\\MoqCaseStudy\\StudentTest\\StudentServiceTest.cs",
+              "RelativeToolTip": "StudentTest\\StudentServiceTest.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:48:06.931Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

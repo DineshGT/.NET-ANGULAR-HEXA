@@ -1,0 +1,34 @@
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Calculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Calculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.AssemblyInfoInputs.cache
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Calculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.AssemblyInfo.cs
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Calculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.csproj.CoreCompileInputs.cache
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Calculator\CalculatorApp\bin\Debug\net8.0\CalculatorApp.deps.json
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Calculator\CalculatorApp\bin\Debug\net8.0\CalculatorApp.dll
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Calculator\CalculatorApp\bin\Debug\net8.0\CalculatorApp.pdb
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Calculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.dll
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Calculator\CalculatorApp\obj\Debug\net8.0\refint\CalculatorApp.dll
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Calculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.pdb
+D:\Corporate\EdElevete\Hexaware\nUnit\Demos\Calculator\CalculatorApp\obj\Debug\net8.0\ref\CalculatorApp.dll
+D:\Corporate\EdElevete\Hexaware\2-Apr-2025\C# Foundation\nUnit\Demos\Calculator\CalculatorApp\bin\Debug\net8.0\CalculatorApp.deps.json
+D:\Corporate\EdElevete\Hexaware\2-Apr-2025\C# Foundation\nUnit\Demos\Calculator\CalculatorApp\bin\Debug\net8.0\CalculatorApp.dll
+D:\Corporate\EdElevete\Hexaware\2-Apr-2025\C# Foundation\nUnit\Demos\Calculator\CalculatorApp\bin\Debug\net8.0\CalculatorApp.pdb
+D:\Corporate\EdElevete\Hexaware\2-Apr-2025\C# Foundation\nUnit\Demos\Calculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate\EdElevete\Hexaware\2-Apr-2025\C# Foundation\nUnit\Demos\Calculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.AssemblyInfoInputs.cache
+D:\Corporate\EdElevete\Hexaware\2-Apr-2025\C# Foundation\nUnit\Demos\Calculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.AssemblyInfo.cs
+D:\Corporate\EdElevete\Hexaware\2-Apr-2025\C# Foundation\nUnit\Demos\Calculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.csproj.CoreCompileInputs.cache
+D:\Corporate\EdElevete\Hexaware\2-Apr-2025\C# Foundation\nUnit\Demos\Calculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.dll
+D:\Corporate\EdElevete\Hexaware\2-Apr-2025\C# Foundation\nUnit\Demos\Calculator\CalculatorApp\obj\Debug\net8.0\refint\CalculatorApp.dll
+D:\Corporate\EdElevete\Hexaware\2-Apr-2025\C# Foundation\nUnit\Demos\Calculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.pdb
+D:\Corporate\EdElevete\Hexaware\2-Apr-2025\C# Foundation\nUnit\Demos\Calculator\CalculatorApp\obj\Debug\net8.0\ref\CalculatorApp.dll
+D:\.NET HEXAWARE\Day wise learning\Calculator\CalculatorApp\bin\Debug\net8.0\CalculatorApp.deps.json
+D:\.NET HEXAWARE\Day wise learning\Calculator\CalculatorApp\bin\Debug\net8.0\CalculatorApp.dll
+D:\.NET HEXAWARE\Day wise learning\Calculator\CalculatorApp\bin\Debug\net8.0\CalculatorApp.pdb
+D:\.NET HEXAWARE\Day wise learning\Calculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET HEXAWARE\Day wise learning\Calculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.AssemblyInfoInputs.cache
+D:\.NET HEXAWARE\Day wise learning\Calculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.AssemblyInfo.cs
+D:\.NET HEXAWARE\Day wise learning\Calculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.csproj.CoreCompileInputs.cache
+D:\.NET HEXAWARE\Day wise learning\Calculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.sourcelink.json
+D:\.NET HEXAWARE\Day wise learning\Calculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.dll
+D:\.NET HEXAWARE\Day wise learning\Calculator\CalculatorApp\obj\Debug\net8.0\refint\CalculatorApp.dll
+D:\.NET HEXAWARE\Day wise learning\Calculator\CalculatorApp\obj\Debug\net8.0\CalculatorApp.pdb
+D:\.NET HEXAWARE\Day wise learning\Calculator\CalculatorApp\obj\Debug\net8.0\ref\CalculatorApp.dll
