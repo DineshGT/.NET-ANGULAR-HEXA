@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Corporate\\EdElevete\\Hexaware\\30-May-2025\\.Net\u002BAngular\\EF Core\\Demo\\Ecomm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75D3AAD3-B99E-4005-84ED-F248C7186B8A}|UIApp\\UIApp.csproj|d:\\corporate\\edelevete\\hexaware\\30-may-2025\\.net\u002Bangular\\ef core\\demo\\ecomm\\uiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D3AAD3-B99E-4005-84ED-F248C7186B8A}|UIApp\\UIApp.csproj|solutionrelative:uiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D3AAD3-B99E-4005-84ED-F248C7186B8A}|UIApp\\UIApp.csproj|d:\\corporate\\edelevete\\hexaware\\30-may-2025\\.net\u002Bangular\\ef core\\demo\\ecomm\\uiapp\\orderbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D3AAD3-B99E-4005-84ED-F248C7186B8A}|UIApp\\UIApp.csproj|solutionrelative:uiapp\\orderbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296C61E4-6D85-42A2-A420-0E99E2E8ED82}|DAL\\DAL.csproj|d:\\corporate\\edelevete\\hexaware\\30-may-2025\\.net\u002Bangular\\ef core\\demo\\ecomm\\dal\\dataaccess\\iorderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296C61E4-6D85-42A2-A420-0E99E2E8ED82}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccess\\iorderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{296C61E4-6D85-42A2-A420-0E99E2E8ED82}|DAL\\DAL.csproj|d:\\corporate\\edelevete\\hexaware\\30-may-2025\\.net\u002Bangular\\ef core\\demo\\ecomm\\dal\\dataaccess\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{296C61E4-6D85-42A2-A420-0E99E2E8ED82}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccess\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Corporate\\EdElevete\\Hexaware\\30-May-2025\\.Net\u002BAngular\\EF Core\\Demo\\Ecomm\\UIApp\\Program.cs",
+              "RelativeDocumentMoniker": "UIApp\\Program.cs",
+              "ToolTip": "D:\\Corporate\\EdElevete\\Hexaware\\30-May-2025\\.Net\u002BAngular\\EF Core\\Demo\\Ecomm\\UIApp\\Program.cs",
+              "RelativeToolTip": "UIApp\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEIAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:47:47.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderRepo.cs",
+              "DocumentMoniker": "D:\\Corporate\\EdElevete\\Hexaware\\30-May-2025\\.Net\u002BAngular\\EF Core\\Demo\\Ecomm\\DAL\\DataAccess\\OrderRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\DataAccess\\OrderRepo.cs",
+              "ToolTip": "D:\\Corporate\\EdElevete\\Hexaware\\30-May-2025\\.Net\u002BAngular\\EF Core\\Demo\\Ecomm\\DAL\\DataAccess\\OrderRepo.cs",
+              "RelativeToolTip": "DAL\\DataAccess\\OrderRepo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:46:12.234Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IOrderRepo.cs",
+              "DocumentMoniker": "D:\\Corporate\\EdElevete\\Hexaware\\30-May-2025\\.Net\u002BAngular\\EF Core\\Demo\\Ecomm\\DAL\\DataAccess\\IOrderRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\DataAccess\\IOrderRepo.cs",
+              "ToolTip": "D:\\Corporate\\EdElevete\\Hexaware\\30-May-2025\\.Net\u002BAngular\\EF Core\\Demo\\Ecomm\\DAL\\DataAccess\\IOrderRepo.cs",
+              "RelativeToolTip": "DAL\\DataAccess\\IOrderRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:46:10.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderBL.cs",
+              "DocumentMoniker": "D:\\Corporate\\EdElevete\\Hexaware\\30-May-2025\\.Net\u002BAngular\\EF Core\\Demo\\Ecomm\\UIApp\\OrderBL.cs",
+              "RelativeDocumentMoniker": "UIApp\\OrderBL.cs",
+              "ToolTip": "D:\\Corporate\\EdElevete\\Hexaware\\30-May-2025\\.Net\u002BAngular\\EF Core\\Demo\\Ecomm\\UIApp\\OrderBL.cs",
+              "RelativeToolTip": "UIApp\\OrderBL.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T10:44:00.756Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

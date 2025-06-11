@@ -1,0 +1,15 @@
+D:\Corporate\EdElevete\Hexaware\30-May-2025\.Net+Angular\EF Core\Demo\Ecomm\DAL\bin\Debug\net6.0\appSettings.json
+D:\Corporate\EdElevete\Hexaware\30-May-2025\.Net+Angular\EF Core\Demo\Ecomm\DAL\bin\Debug\net6.0\DAL.deps.json
+D:\Corporate\EdElevete\Hexaware\30-May-2025\.Net+Angular\EF Core\Demo\Ecomm\DAL\bin\Debug\net6.0\DAL.runtimeconfig.json
+D:\Corporate\EdElevete\Hexaware\30-May-2025\.Net+Angular\EF Core\Demo\Ecomm\DAL\bin\Debug\net6.0\DAL.dll
+D:\Corporate\EdElevete\Hexaware\30-May-2025\.Net+Angular\EF Core\Demo\Ecomm\DAL\bin\Debug\net6.0\DAL.pdb
+D:\Corporate\EdElevete\Hexaware\30-May-2025\.Net+Angular\EF Core\Demo\Ecomm\DAL\obj\Debug\net6.0\DAL.csproj.AssemblyReference.cache
+D:\Corporate\EdElevete\Hexaware\30-May-2025\.Net+Angular\EF Core\Demo\Ecomm\DAL\obj\Debug\net6.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate\EdElevete\Hexaware\30-May-2025\.Net+Angular\EF Core\Demo\Ecomm\DAL\obj\Debug\net6.0\DAL.AssemblyInfoInputs.cache
+D:\Corporate\EdElevete\Hexaware\30-May-2025\.Net+Angular\EF Core\Demo\Ecomm\DAL\obj\Debug\net6.0\DAL.AssemblyInfo.cs
+D:\Corporate\EdElevete\Hexaware\30-May-2025\.Net+Angular\EF Core\Demo\Ecomm\DAL\obj\Debug\net6.0\DAL.csproj.CoreCompileInputs.cache
+D:\Corporate\EdElevete\Hexaware\30-May-2025\.Net+Angular\EF Core\Demo\Ecomm\DAL\obj\Debug\net6.0\DAL.dll
+D:\Corporate\EdElevete\Hexaware\30-May-2025\.Net+Angular\EF Core\Demo\Ecomm\DAL\obj\Debug\net6.0\refint\DAL.dll
+D:\Corporate\EdElevete\Hexaware\30-May-2025\.Net+Angular\EF Core\Demo\Ecomm\DAL\obj\Debug\net6.0\DAL.pdb
+D:\Corporate\EdElevete\Hexaware\30-May-2025\.Net+Angular\EF Core\Demo\Ecomm\DAL\obj\Debug\net6.0\DAL.genruntimeconfig.cache
+D:\Corporate\EdElevete\Hexaware\30-May-2025\.Net+Angular\EF Core\Demo\Ecomm\DAL\obj\Debug\net6.0\ref\DAL.dll
