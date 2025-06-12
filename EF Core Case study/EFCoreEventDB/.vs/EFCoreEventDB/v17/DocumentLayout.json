@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Dinesh G T\\source\\repos\\EFCoreEventDB\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2CD1C1DF-F5D9-4AFB-AAFC-DAA7A86EE7B2}|EventUIApp\\EventUIApp.csproj|c:\\users\\dinesh g t\\source\\repos\\efcoreeventdb\\eventuiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD1C1DF-F5D9-4AFB-AAFC-DAA7A86EE7B2}|EventUIApp\\EventUIApp.csproj|solutionrelative:eventuiapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2CD1C1DF-F5D9-4AFB-AAFC-DAA7A86EE7B2}|EventUIApp\\EventUIApp.csproj|c:\\users\\dinesh g t\\source\\repos\\efcoreeventdb\\eventuiapp\\sessioninforbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CD1C1DF-F5D9-4AFB-AAFC-DAA7A86EE7B2}|EventUIApp\\EventUIApp.csproj|solutionrelative:eventuiapp\\sessioninforbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,24 +30,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EventUIApp",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Dinesh G T\\source\\repos\\EFCoreEventDB\\EventUIApp\\Program.cs",
+              "RelativeDocumentMoniker": "EventUIApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Dinesh G T\\source\\repos\\EFCoreEventDB\\EventUIApp\\Program.cs",
+              "RelativeToolTip": "EventUIApp\\Program.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAQwG4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T03:12:41.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EventUIApp.csproj",
               "DocumentMoniker": "C:\\Users\\Dinesh G T\\source\\repos\\EFCoreEventDB\\EventUIApp\\EventUIApp.csproj",
               "RelativeDocumentMoniker": "EventUIApp\\EventUIApp.csproj",
               "ToolTip": "C:\\Users\\Dinesh G T\\source\\repos\\EFCoreEventDB\\EventUIApp\\EventUIApp.csproj",
               "RelativeToolTip": "EventUIApp\\EventUIApp.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-11T14:42:16.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T14:42:16.62Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "SessionInforBL.cs",
               "DocumentMoniker": "C:\\Users\\Dinesh G T\\source\\repos\\EFCoreEventDB\\EventUIApp\\SessionInforBL.cs",
               "RelativeDocumentMoniker": "EventUIApp\\SessionInforBL.cs",
@@ -56,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "EventDetailsBL.cs",
               "DocumentMoniker": "C:\\Users\\Dinesh G T\\source\\repos\\EFCoreEventDB\\EventUIApp\\EventDetailsBL.cs",
               "RelativeDocumentMoniker": "EventUIApp\\EventDetailsBL.cs",
@@ -64,12 +80,11 @@
               "RelativeToolTip": "EventUIApp\\EventDetailsBL.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAwwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T14:42:29.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T14:42:29.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UserInfoBL.cs",
               "DocumentMoniker": "C:\\Users\\Dinesh G T\\source\\repos\\EFCoreEventDB\\EventUIApp\\UserInfoBL.cs",
               "RelativeDocumentMoniker": "EventUIApp\\UserInfoBL.cs",
@@ -77,8 +92,7 @@
               "RelativeToolTip": "EventUIApp\\UserInfoBL.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T13:27:17.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-11T13:27:17.185Z"
             }
           ]
         }
