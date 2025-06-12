@@ -1,0 +1,5 @@
+C:\Users\Dinesh G T\source\repos\EFCoreEventDB\EventUIApp\obj\Debug\net8.0\EventUIApp.csproj.AssemblyReference.cache
+C:\Users\Dinesh G T\source\repos\EFCoreEventDB\EventUIApp\obj\Debug\net8.0\EventUIApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dinesh G T\source\repos\EFCoreEventDB\EventUIApp\obj\Debug\net8.0\EventUIApp.AssemblyInfoInputs.cache
+C:\Users\Dinesh G T\source\repos\EFCoreEventDB\EventUIApp\obj\Debug\net8.0\EventUIApp.AssemblyInfo.cs
+C:\Users\Dinesh G T\source\repos\EFCoreEventDB\EventUIApp\obj\Debug\net8.0\EventUIApp.csproj.CoreCompileInputs.cache

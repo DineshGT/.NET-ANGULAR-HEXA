@@ -1,0 +1,14 @@
+C:\Users\Dinesh G T\source\repos\EFCoreEventDB\EventAppDAL\bin\Debug\net8.0\EventAppDAL.deps.json
+C:\Users\Dinesh G T\source\repos\EFCoreEventDB\EventAppDAL\bin\Debug\net8.0\EventAppDAL.runtimeconfig.json
+C:\Users\Dinesh G T\source\repos\EFCoreEventDB\EventAppDAL\bin\Debug\net8.0\EventAppDAL.dll
+C:\Users\Dinesh G T\source\repos\EFCoreEventDB\EventAppDAL\bin\Debug\net8.0\EventAppDAL.pdb
+C:\Users\Dinesh G T\source\repos\EFCoreEventDB\EventAppDAL\obj\Debug\net8.0\EventAppDAL.csproj.AssemblyReference.cache
+C:\Users\Dinesh G T\source\repos\EFCoreEventDB\EventAppDAL\obj\Debug\net8.0\EventAppDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dinesh G T\source\repos\EFCoreEventDB\EventAppDAL\obj\Debug\net8.0\EventAppDAL.AssemblyInfoInputs.cache
+C:\Users\Dinesh G T\source\repos\EFCoreEventDB\EventAppDAL\obj\Debug\net8.0\EventAppDAL.AssemblyInfo.cs
+C:\Users\Dinesh G T\source\repos\EFCoreEventDB\EventAppDAL\obj\Debug\net8.0\EventAppDAL.csproj.CoreCompileInputs.cache
+C:\Users\Dinesh G T\source\repos\EFCoreEventDB\EventAppDAL\obj\Debug\net8.0\EventAppDAL.dll
+C:\Users\Dinesh G T\source\repos\EFCoreEventDB\EventAppDAL\obj\Debug\net8.0\refint\EventAppDAL.dll
+C:\Users\Dinesh G T\source\repos\EFCoreEventDB\EventAppDAL\obj\Debug\net8.0\EventAppDAL.pdb
+C:\Users\Dinesh G T\source\repos\EFCoreEventDB\EventAppDAL\obj\Debug\net8.0\EventAppDAL.genruntimeconfig.cache
+C:\Users\Dinesh G T\source\repos\EFCoreEventDB\EventAppDAL\obj\Debug\net8.0\ref\EventAppDAL.dll

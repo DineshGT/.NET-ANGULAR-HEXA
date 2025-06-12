@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Dinesh G T\\source\\repos\\EFCoreEventDB\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD1C1DF-F5D9-4AFB-AAFC-DAA7A86EE7B2}|EventUIApp\\EventUIApp.csproj|c:\\users\\dinesh g t\\source\\repos\\efcoreeventdb\\eventuiapp\\sessioninforbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD1C1DF-F5D9-4AFB-AAFC-DAA7A86EE7B2}|EventUIApp\\EventUIApp.csproj|solutionrelative:eventuiapp\\sessioninforbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD1C1DF-F5D9-4AFB-AAFC-DAA7A86EE7B2}|EventUIApp\\EventUIApp.csproj|c:\\users\\dinesh g t\\source\\repos\\efcoreeventdb\\eventuiapp\\eventdetailsbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD1C1DF-F5D9-4AFB-AAFC-DAA7A86EE7B2}|EventUIApp\\EventUIApp.csproj|solutionrelative:eventuiapp\\eventdetailsbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD1C1DF-F5D9-4AFB-AAFC-DAA7A86EE7B2}|EventUIApp\\EventUIApp.csproj|c:\\users\\dinesh g t\\source\\repos\\efcoreeventdb\\eventuiapp\\eventuiapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2CD1C1DF-F5D9-4AFB-AAFC-DAA7A86EE7B2}|EventUIApp\\EventUIApp.csproj|solutionrelative:eventuiapp\\eventuiapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CD1C1DF-F5D9-4AFB-AAFC-DAA7A86EE7B2}|EventUIApp\\EventUIApp.csproj|c:\\users\\dinesh g t\\source\\repos\\efcoreeventdb\\eventuiapp\\userinfobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD1C1DF-F5D9-4AFB-AAFC-DAA7A86EE7B2}|EventUIApp\\EventUIApp.csproj|solutionrelative:eventuiapp\\userinfobl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventUIApp",
+              "DocumentMoniker": "C:\\Users\\Dinesh G T\\source\\repos\\EFCoreEventDB\\EventUIApp\\EventUIApp.csproj",
+              "RelativeDocumentMoniker": "EventUIApp\\EventUIApp.csproj",
+              "ToolTip": "C:\\Users\\Dinesh G T\\source\\repos\\EFCoreEventDB\\EventUIApp\\EventUIApp.csproj",
+              "RelativeToolTip": "EventUIApp\\EventUIApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-11T14:42:16.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SessionInforBL.cs",
+              "DocumentMoniker": "C:\\Users\\Dinesh G T\\source\\repos\\EFCoreEventDB\\EventUIApp\\SessionInforBL.cs",
+              "RelativeDocumentMoniker": "EventUIApp\\SessionInforBL.cs",
+              "ToolTip": "C:\\Users\\Dinesh G T\\source\\repos\\EFCoreEventDB\\EventUIApp\\SessionInforBL.cs",
+              "RelativeToolTip": "EventUIApp\\SessionInforBL.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T14:43:28.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EventDetailsBL.cs",
+              "DocumentMoniker": "C:\\Users\\Dinesh G T\\source\\repos\\EFCoreEventDB\\EventUIApp\\EventDetailsBL.cs",
+              "RelativeDocumentMoniker": "EventUIApp\\EventDetailsBL.cs",
+              "ToolTip": "C:\\Users\\Dinesh G T\\source\\repos\\EFCoreEventDB\\EventUIApp\\EventDetailsBL.cs",
+              "RelativeToolTip": "EventUIApp\\EventDetailsBL.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T14:42:29.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserInfoBL.cs",
+              "DocumentMoniker": "C:\\Users\\Dinesh G T\\source\\repos\\EFCoreEventDB\\EventUIApp\\UserInfoBL.cs",
+              "RelativeDocumentMoniker": "EventUIApp\\UserInfoBL.cs",
+              "ToolTip": "C:\\Users\\Dinesh G T\\source\\repos\\EFCoreEventDB\\EventUIApp\\UserInfoBL.cs",
+              "RelativeToolTip": "EventUIApp\\UserInfoBL.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T13:27:17.185Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "EventUIApp": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
