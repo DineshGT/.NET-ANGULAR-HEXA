@@ -1,0 +1,25 @@
+﻿@model List<ModelDemo.Models.Product>
+<html>
+    <head>
+        <title>Product List</title>
+     </head>
+     <body>
+         <h3>Product List</h3>
+         <table>
+             <tr>
+                 <th>Product Id</th><th>Product Name</th><th>Category</th><th>List Price</th>
+             </tr>
+             @{
+                foreach(var product in Model)
+                {
+                    <tr>
+                        <td>@product.ProductId</td>
+                        <td>@product.ProductName</td>
+                        <td>@product.ProductCategory</td>
+                        <td>@product.ListPrice</td>
+                    </tr>
+                }
+             }
+        </table>
+      </body>
+</html>

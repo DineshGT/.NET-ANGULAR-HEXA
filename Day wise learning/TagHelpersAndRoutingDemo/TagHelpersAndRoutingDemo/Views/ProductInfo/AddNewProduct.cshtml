@@ -1,0 +1,30 @@
+﻿
+@model TagHelpersAndRoutingDemo.Models.Product
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+
+ <html>
+        <head>
+            <title>Add New Product</title>
+        </head>
+        <body>
+            <a asp-route="List">Show All Products</a>
+            <h3>New Product</h3>
+            <form asp-route="SaveProduct" method="post">
+                <div><label asp-for="ProductId">ID:</label><div>
+                <div><input type="number" asp-for="ProductId" placeholder="Enter a Product Id"/> </div>
+
+                <div><label asp-for="ProductName">NAME:</label><div>
+                <div><input type="text" asp-for="ProductName" placeholder="Enter a Product Name"/> </div>
+
+                <div><label asp-for="ProductCategory">CATEGORY:</label><div>
+                <div><input type="text" asp-for="ProductCategory" placeholder="Enter a Product Category"/> </div>
+
+                 <div><label asp-for="ListPrice">LIST PRICE:</label><div>
+                <div><input type="number" asp-for="ListPrice" placeholder="Enter a Price"/> </div>
+                
+                <div>
+                    <input type="submit" value="Add Product">
+                </div>
+            </form>
+        </body>
+  </html>

@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET HEXAWARE\\MVC Case study 1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB3AFA1-0261-428E-A89B-7AC1BA162DB6}|MVC Case study 1.csproj|d:\\.net hexaware\\mvc case study 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACB3AFA1-0261-428E-A89B-7AC1BA162DB6}|MVC Case study 1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB3AFA1-0261-428E-A89B-7AC1BA162DB6}|MVC Case study 1.csproj|d:\\.net hexaware\\mvc case study 1\\controllers\\abcinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACB3AFA1-0261-428E-A89B-7AC1BA162DB6}|MVC Case study 1.csproj|solutionrelative:controllers\\abcinfocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB3AFA1-0261-428E-A89B-7AC1BA162DB6}|MVC Case study 1.csproj|d:\\.net hexaware\\mvc case study 1\\models\\abcinfotech.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ACB3AFA1-0261-428E-A89B-7AC1BA162DB6}|MVC Case study 1.csproj|solutionrelative:models\\abcinfotech.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB3AFA1-0261-428E-A89B-7AC1BA162DB6}|MVC Case study 1.csproj|d:\\.net hexaware\\mvc case study 1\\views\\abcinfo\\addcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACB3AFA1-0261-428E-A89B-7AC1BA162DB6}|MVC Case study 1.csproj|solutionrelative:views\\abcinfo\\addcontact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB3AFA1-0261-428E-A89B-7AC1BA162DB6}|MVC Case study 1.csproj|d:\\.net hexaware\\mvc case study 1\\views\\abcinfo\\getcontactbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACB3AFA1-0261-428E-A89B-7AC1BA162DB6}|MVC Case study 1.csproj|solutionrelative:views\\abcinfo\\getcontactbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ACB3AFA1-0261-428E-A89B-7AC1BA162DB6}|MVC Case study 1.csproj|d:\\.net hexaware\\mvc case study 1\\views\\abcinfo\\showcontacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ACB3AFA1-0261-428E-A89B-7AC1BA162DB6}|MVC Case study 1.csproj|solutionrelative:views\\abcinfo\\showcontacts.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.NET HEXAWARE\\MVC Case study 1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\.NET HEXAWARE\\MVC Case study 1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:35:28.862Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ABCInfoController.cs",
+              "DocumentMoniker": "D:\\.NET HEXAWARE\\MVC Case study 1\\Controllers\\ABCInfoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ABCInfoController.cs",
+              "ToolTip": "D:\\.NET HEXAWARE\\MVC Case study 1\\Controllers\\ABCInfoController.cs",
+              "RelativeToolTip": "Controllers\\ABCInfoController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T14:11:50.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ABCInfoTech.cs",
+              "DocumentMoniker": "D:\\.NET HEXAWARE\\MVC Case study 1\\Models\\ABCInfoTech.cs",
+              "RelativeDocumentMoniker": "Models\\ABCInfoTech.cs",
+              "ToolTip": "D:\\.NET HEXAWARE\\MVC Case study 1\\Models\\ABCInfoTech.cs",
+              "RelativeToolTip": "Models\\ABCInfoTech.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T14:10:39.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShowContacts.cshtml",
+              "DocumentMoniker": "D:\\.NET HEXAWARE\\MVC Case study 1\\Views\\ABCInfo\\ShowContacts.cshtml",
+              "RelativeDocumentMoniker": "Views\\ABCInfo\\ShowContacts.cshtml",
+              "ToolTip": "D:\\.NET HEXAWARE\\MVC Case study 1\\Views\\ABCInfo\\ShowContacts.cshtml",
+              "RelativeToolTip": "Views\\ABCInfo\\ShowContacts.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T14:04:43.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetContactById.cshtml",
+              "DocumentMoniker": "D:\\.NET HEXAWARE\\MVC Case study 1\\Views\\ABCInfo\\GetContactById.cshtml",
+              "RelativeDocumentMoniker": "Views\\ABCInfo\\GetContactById.cshtml",
+              "ToolTip": "D:\\.NET HEXAWARE\\MVC Case study 1\\Views\\ABCInfo\\GetContactById.cshtml",
+              "RelativeToolTip": "Views\\ABCInfo\\GetContactById.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T14:04:17.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddContact.cshtml",
+              "DocumentMoniker": "D:\\.NET HEXAWARE\\MVC Case study 1\\Views\\ABCInfo\\AddContact.cshtml",
+              "RelativeDocumentMoniker": "Views\\ABCInfo\\AddContact.cshtml",
+              "ToolTip": "D:\\.NET HEXAWARE\\MVC Case study 1\\Views\\ABCInfo\\AddContact.cshtml",
+              "RelativeToolTip": "Views\\ABCInfo\\AddContact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-12T14:00:57.477Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

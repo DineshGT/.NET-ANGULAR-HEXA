@@ -1,0 +1,28 @@
+﻿
+@model List<TagHelpersAndRoutingDemo.Models.Product>
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+    <html>
+        <head>
+            <title>Product List</title>
+        </head>
+        <body>
+            <a asp-route="AddProduct">Add New Product</a>
+            <h3>Product List</h3>
+            <table>
+                <tr>
+                    <th>ID</th><th>NAME</th><th>CATEGORY</th><th>LIST PRICE</th>
+                <tr>
+                    @{
+                        foreach(var product in Model)
+                        {
+                            <tr>
+                                <td>@product.ProductId</td>
+                                <td>@product.ProductName</td>
+                                <td>@product.ProductCategory</td>
+                                <td>@product.ListPrice</td>
+                            </tr>
+                        }
+                    }
+            </table>
+        </body>
+     </html>
