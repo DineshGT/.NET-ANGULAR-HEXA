@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\.NET HEXAWARE\\Day wise learning\\TagHelpersAndRoutingDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET HEXAWARE\\Day wise learning\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Controllers\\ProductInfoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TagHelpersAndRoutingDemo\\Controllers\\ProductInfoController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET HEXAWARE\\Day wise learning\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TagHelpersAndRoutingDemo\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductInfoController.cs",
-              "DocumentMoniker": "D:\\.NET HEXAWARE\\Day wise learning\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Controllers\\ProductInfoController.cs",
-              "RelativeDocumentMoniker": "TagHelpersAndRoutingDemo\\Controllers\\ProductInfoController.cs",
-              "ToolTip": "D:\\.NET HEXAWARE\\Day wise learning\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Controllers\\ProductInfoController.cs",
-              "RelativeToolTip": "TagHelpersAndRoutingDemo\\Controllers\\ProductInfoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA7AAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.NET HEXAWARE\\Day wise learning\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Program.cs",
+              "RelativeDocumentMoniker": "TagHelpersAndRoutingDemo\\Program.cs",
+              "ToolTip": "D:\\.NET HEXAWARE\\Day wise learning\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Program.cs",
+              "RelativeToolTip": "TagHelpersAndRoutingDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T13:02:07.063Z",
+              "WhenOpened": "2025-06-13T03:46:41.539Z",
               "EditorCaption": ""
             }
           ]

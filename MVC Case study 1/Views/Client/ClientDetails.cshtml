@@ -1,0 +1,20 @@
+﻿@model MVC_Case_study_1.Models.ClientInfo
+
+<h2>Client Details</h2>
+
+@if (Model != null)
+{
+    <table class="table table-bordered">
+        <tr><th>Client ID</th><td>@Model.ClientId</td></tr>
+        <tr><th>Company Name</th><td>@Model.CompanyName</td></tr>
+        <tr><th>Web URL</th><td>@Model.WebUrl</td></tr>
+        <tr><th>Email</th><td>@Model.Email</td></tr>
+        <tr><th>Category</th><td>@Model.Category</td></tr>
+        <tr><th>Standard</th><td>@Model.Standard</td></tr>
+    </table>
+}
+else
+{
+    <p>No client found.</p>
+}
+

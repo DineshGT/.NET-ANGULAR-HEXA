@@ -1,0 +1,31 @@
+﻿@model List<MVC_Case_study_1.Models.ClientInfo>
+
+<h2>All Clients</h2>
+
+<a href="/client/add" class="btn btn-primary">Add Client</a>
+
+<table class="table table-bordered mt-3">
+    <thead>
+        <tr>
+            <th>Client ID</th>
+            <th>Company Name</th>
+            <th>Web URL</th>
+            <th>Email</th>
+            <th>Category</th>
+            <th>Standard</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var client in Model)
+        {
+            <tr>
+                <td>@client.ClientId</td>
+                <td>@client.CompanyName</td>
+                <td>@client.WebUrl</td>
+                <td>@client.Email</td>
+                <td>@client.Category</td>
+                <td>@client.Standard</td>
+            </tr>
+        }
+    </tbody>
+</table>
