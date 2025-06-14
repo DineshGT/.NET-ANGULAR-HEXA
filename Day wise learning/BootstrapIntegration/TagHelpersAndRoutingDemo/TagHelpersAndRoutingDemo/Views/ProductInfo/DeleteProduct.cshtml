@@ -1,0 +1,31 @@
+﻿
+
+@model TagHelpersAndRoutingDemo.Models.Product
+
+
+ <html>
+        <head>
+            <title>Delete Confirmation</title>
+        </head>
+        <body>
+            <a asp-route="List">Show All Products</a>
+            <h3>Do You Want Delete a Product:@Model.ProductName ?</h3>
+            <form asp-route="RemoveProduct" method="post">
+                <div><label asp-for="ProductId">ID:</label><div>
+                <div><input type="number" asp-for="ProductId" placeholder="Enter a Product Id" readonly/> </div>
+
+                <div><label asp-for="ProductName">NAME:</label><div>
+                <div><input type="text" asp-for="ProductName" placeholder="Enter a Product Name" readonly/> </div>
+
+                <div><label asp-for="ProductCategory">CATEGORY:</label><div>
+                <div><input type="text" asp-for="ProductCategory" placeholder="Enter a Product Category" readonly/> </div>
+
+                 <div><label asp-for="ListPrice">LIST PRICE:</label><div>
+                <div><input type="number" asp-for="ListPrice" placeholder="Enter a Price" readonly/> </div>
+                
+                <div>
+                    <input type="submit" value="Delete">
+                </div>
+            </form>
+        </body>
+  </html>

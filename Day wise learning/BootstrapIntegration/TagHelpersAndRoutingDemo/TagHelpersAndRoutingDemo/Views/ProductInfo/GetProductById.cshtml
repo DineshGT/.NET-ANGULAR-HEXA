@@ -1,0 +1,16 @@
+﻿
+@model TagHelpersAndRoutingDemo.Models.Product
+
+
+<html>
+    <head>
+        <title>Product Details</title>
+    </head>
+    <body>
+        <a asp-route="List">Product List</a>
+        <h3>Product Details:@Model.ProductName</h3>
+        <div>ID:@Model.ProductId</div>
+        <div>Category:@Model.ProductCategory</div>
+        <div>PRICE:@Model.ListPrice</div>
+    </body>
+<html>

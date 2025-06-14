@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET HEXAWARE\\Day wise learning\\BootstrapIntegration\\TagHelpersAndRoutingDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET HEXAWARE\\Day wise learning\\BootstrapIntegration\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Views\\ProductInfo\\AddNewProduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TagHelpersAndRoutingDemo\\Views\\ProductInfo\\AddNewProduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET HEXAWARE\\Day wise learning\\BootstrapIntegration\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Views\\ProductInfo\\DeleteProduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TagHelpersAndRoutingDemo\\Views\\ProductInfo\\DeleteProduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET HEXAWARE\\Day wise learning\\BootstrapIntegration\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Views\\ProductInfo\\EditProduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TagHelpersAndRoutingDemo\\Views\\ProductInfo\\EditProduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET HEXAWARE\\Day wise learning\\BootstrapIntegration\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Views\\ProductInfo\\GetProductById.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TagHelpersAndRoutingDemo\\Views\\ProductInfo\\GetProductById.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET HEXAWARE\\Day wise learning\\BootstrapIntegration\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Views\\ProductInfo\\ProductList.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TagHelpersAndRoutingDemo\\Views\\ProductInfo\\ProductList.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetProductById.cshtml",
+              "DocumentMoniker": "D:\\.NET HEXAWARE\\Day wise learning\\BootstrapIntegration\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Views\\ProductInfo\\GetProductById.cshtml",
+              "RelativeDocumentMoniker": "TagHelpersAndRoutingDemo\\Views\\ProductInfo\\GetProductById.cshtml",
+              "ToolTip": "D:\\.NET HEXAWARE\\Day wise learning\\BootstrapIntegration\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Views\\ProductInfo\\GetProductById.cshtml",
+              "RelativeToolTip": "TagHelpersAndRoutingDemo\\Views\\ProductInfo\\GetProductById.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T05:46:11.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditProduct.cshtml",
+              "DocumentMoniker": "D:\\.NET HEXAWARE\\Day wise learning\\BootstrapIntegration\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Views\\ProductInfo\\EditProduct.cshtml",
+              "RelativeDocumentMoniker": "TagHelpersAndRoutingDemo\\Views\\ProductInfo\\EditProduct.cshtml",
+              "ToolTip": "D:\\.NET HEXAWARE\\Day wise learning\\BootstrapIntegration\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Views\\ProductInfo\\EditProduct.cshtml",
+              "RelativeToolTip": "TagHelpersAndRoutingDemo\\Views\\ProductInfo\\EditProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T05:45:52.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteProduct.cshtml",
+              "DocumentMoniker": "D:\\.NET HEXAWARE\\Day wise learning\\BootstrapIntegration\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Views\\ProductInfo\\DeleteProduct.cshtml",
+              "RelativeDocumentMoniker": "TagHelpersAndRoutingDemo\\Views\\ProductInfo\\DeleteProduct.cshtml",
+              "ToolTip": "D:\\.NET HEXAWARE\\Day wise learning\\BootstrapIntegration\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Views\\ProductInfo\\DeleteProduct.cshtml",
+              "RelativeToolTip": "TagHelpersAndRoutingDemo\\Views\\ProductInfo\\DeleteProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T05:45:51.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddNewProduct.cshtml",
+              "DocumentMoniker": "D:\\.NET HEXAWARE\\Day wise learning\\BootstrapIntegration\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Views\\ProductInfo\\AddNewProduct.cshtml",
+              "RelativeDocumentMoniker": "TagHelpersAndRoutingDemo\\Views\\ProductInfo\\AddNewProduct.cshtml",
+              "ToolTip": "D:\\.NET HEXAWARE\\Day wise learning\\BootstrapIntegration\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Views\\ProductInfo\\AddNewProduct.cshtml",
+              "RelativeToolTip": "TagHelpersAndRoutingDemo\\Views\\ProductInfo\\AddNewProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T05:45:43.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductList.cshtml",
+              "DocumentMoniker": "D:\\.NET HEXAWARE\\Day wise learning\\BootstrapIntegration\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Views\\ProductInfo\\ProductList.cshtml",
+              "RelativeDocumentMoniker": "TagHelpersAndRoutingDemo\\Views\\ProductInfo\\ProductList.cshtml",
+              "ToolTip": "D:\\.NET HEXAWARE\\Day wise learning\\BootstrapIntegration\\TagHelpersAndRoutingDemo\\TagHelpersAndRoutingDemo\\Views\\ProductInfo\\ProductList.cshtml",
+              "RelativeToolTip": "TagHelpersAndRoutingDemo\\Views\\ProductInfo\\ProductList.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-13T05:45:39.277Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

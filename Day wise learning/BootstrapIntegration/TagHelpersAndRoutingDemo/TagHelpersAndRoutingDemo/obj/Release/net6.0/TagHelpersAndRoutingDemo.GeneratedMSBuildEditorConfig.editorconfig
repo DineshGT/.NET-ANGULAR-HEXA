@@ -1,0 +1,45 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TagHelpersAndRoutingDemo
+build_property.RootNamespace = TagHelpersAndRoutingDemo
+build_property.ProjectDir = D:\.NET HEXAWARE\Day wise learning\BootstrapIntegration\TagHelpersAndRoutingDemo\TagHelpersAndRoutingDemo\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\.NET HEXAWARE\Day wise learning\BootstrapIntegration\TagHelpersAndRoutingDemo\TagHelpersAndRoutingDemo
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/.NET HEXAWARE/Day wise learning/BootstrapIntegration/TagHelpersAndRoutingDemo/TagHelpersAndRoutingDemo/Views/ProductInfo/AddNewProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdEluZm9cQWRkTmV3UHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET HEXAWARE/Day wise learning/BootstrapIntegration/TagHelpersAndRoutingDemo/TagHelpersAndRoutingDemo/Views/ProductInfo/DeleteProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdEluZm9cRGVsZXRlUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET HEXAWARE/Day wise learning/BootstrapIntegration/TagHelpersAndRoutingDemo/TagHelpersAndRoutingDemo/Views/ProductInfo/EditProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdEluZm9cRWRpdFByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET HEXAWARE/Day wise learning/BootstrapIntegration/TagHelpersAndRoutingDemo/TagHelpersAndRoutingDemo/Views/ProductInfo/GetProductById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdEluZm9cR2V0UHJvZHVjdEJ5SWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET HEXAWARE/Day wise learning/BootstrapIntegration/TagHelpersAndRoutingDemo/TagHelpersAndRoutingDemo/Views/ProductInfo/ProductList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdEluZm9cUHJvZHVjdExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/.NET HEXAWARE/Day wise learning/BootstrapIntegration/TagHelpersAndRoutingDemo/TagHelpersAndRoutingDemo/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

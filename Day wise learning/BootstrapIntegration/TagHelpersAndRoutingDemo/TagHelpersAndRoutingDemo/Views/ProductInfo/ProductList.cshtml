@@ -1,0 +1,40 @@
+﻿
+@model List<TagHelpersAndRoutingDemo.Models.Product>
+
+    <html>
+        <head>
+            <title>Product List</title>
+            <environment include="Development" exclude="Production">
+                <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+            </environment>   
+             <environment include="Production" exclude="Development">
+               <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+            </environment>   
+        </head>
+        <body>
+            <div class="container">
+            <a class="btn btn-secondary" asp-route="AddProduct">Add New Product</a>
+            <h3>Product List</h3>
+            <table class="table table-responsive">
+                <tr class="table-primary">
+                    <th>ID</th><th>NAME</th><th>CATEGORY</th><th>LIST PRICE</th>
+                <tr>
+                    @{
+                        foreach(var product in Model)
+                        {
+                            <tr class="table-success">
+                                <td>@product.ProductId</td>
+                                <td>@product.ProductName</td>
+                                <td>@product.ProductCategory</td>
+                                <td>@product.ListPrice</td>
+                                <td><a class="btn btn-info" asp-route="GetById" asp-route-id="@product.ProductId">Details By Id</a></td>
+                                 <td><a class="btn btn-info" asp-route="GetByName" asp-route-name="@product.ProductName">Details By Name</a></td>
+                                <td><a class="btn btn-danger" asp-route="Delete" asp-route-id="@product.ProductId">Delete</a></td>
+                                <td><a class="btn btn-primary" asp-route="Edit" asp-route-id="@product.ProductId">Edit</a></td>
+                            </tr>
+                        }
+                    }
+            </table>
+            </div>
+        </body>
+     </html>

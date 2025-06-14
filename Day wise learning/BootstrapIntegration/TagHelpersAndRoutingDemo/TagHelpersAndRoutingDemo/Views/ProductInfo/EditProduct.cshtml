@@ -1,0 +1,34 @@
+﻿
+@model TagHelpersAndRoutingDemo.Models.Product
+
+
+ <html>
+        <head>
+            <title>Edit Product</title>
+        </head>
+        <body>
+            <a asp-route="List">Show All Products</a>
+            <h3>Edit Product</h3>
+            <form asp-route="EditProduct" method="post">
+                <div><label asp-for="ProductId">ID:</label><div>
+                <div><input type="number" asp-for="ProductId" placeholder="Enter a Product Id" readonly/> </div>
+
+                <div><label asp-for="ProductName">NAME:</label><div>
+                <div><input type="text" asp-for="ProductName" placeholder="Enter a Product Name"/> </div>
+
+                <div><label asp-for="ProductCategory">CATEGORY:</label><div>
+                <div>
+                    <select asp-for="ProductCategory" asp-items="@ViewBag.Categories"> 
+                        <option selected value="">--Select--</option>
+                    </select> 
+                 </div>
+
+                 <div><label asp-for="ListPrice">LIST PRICE:</label><div>
+                <div><input type="number" asp-for="ListPrice" placeholder="Enter a Price"/> </div>
+                
+                <div>
+                    <input type="submit" value="Edit Product">
+                </div>
+            </form>
+        </body>
+  </html>

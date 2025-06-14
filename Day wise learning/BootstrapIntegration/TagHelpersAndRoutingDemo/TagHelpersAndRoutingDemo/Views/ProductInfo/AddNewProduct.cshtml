@@ -1,0 +1,38 @@
+﻿
+@model TagHelpersAndRoutingDemo.Models.Product
+
+
+ <html>
+        <head>
+            <title>Add New Product</title>
+             <link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+        </head>
+        <body>
+            <div class="container">
+            <a class="btn btn-secondary" asp-route="List">Show All Products</a>
+            <h3>New Product</h3>
+            <form asp-route="SaveProduct" method="post">
+
+                <div><label class="form-label" asp-for="ProductId">ID:</label><div>
+                <div><input class="form-control" type="number" asp-for="ProductId" placeholder="Enter a Product Id"/> </div>
+
+                <div><label class="form-label" asp-for="ProductName">NAME:</label><div>
+                <div><input class="form-control" type="text" asp-for="ProductName" placeholder="Enter a Product Name"/> </div>
+
+                <div><label class="form-label" asp-for="ProductCategory">CATEGORY:</label><div>
+                 <div>
+                    <select class="form-control"  asp-for="ProductCategory" asp-items="@ViewBag.Categories"> 
+                        <option selected value="">--Select--</option>
+                    </select> 
+                 </div>
+
+                 <div><label class="form-label" asp-for="ListPrice">LIST PRICE:</label><div>
+                <div><input class="form-control" type="number" asp-for="ListPrice" placeholder="ListPrice"/> </div>
+                
+                <div>
+                    <input class="btn btn-success" type="submit" value="Add Product">
+                </div>
+            </form>
+            </div>
+        </body>
+  </html>

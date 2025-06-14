@@ -1,0 +1,45 @@
+﻿@model Book_Model_Validation_Case_study.Models.Book
+
+@{
+    ViewData["Title"] = "Add New Book";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Add" asp-controller="Book" method="post" novalidate>
+    <div class="mb-3">
+        <label asp-for="Isbn"></label>
+        <input asp-for="Isbn" class="form-control" />
+        <span asp-validation-for="Isbn" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="BookName"></label>
+        <input asp-for="BookName" class="form-control" />
+        <span asp-validation-for="BookName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="AuthorName"></label>
+        <input asp-for="AuthorName" class="form-control" />
+        <span asp-validation-for="AuthorName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="PublishedDate"></label>
+        <input asp-for="PublishedDate" class="form-control" type="date" />
+        <span asp-validation-for="PublishedDate" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="BookUrl"></label>
+        <input asp-for="BookUrl" class="form-control" />
+        <span asp-validation-for="BookUrl" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Book</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
