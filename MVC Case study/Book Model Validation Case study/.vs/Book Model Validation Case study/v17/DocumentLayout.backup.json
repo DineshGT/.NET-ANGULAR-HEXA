@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\.NET HEXAWARE\\MVC Case study\\Book Model Validation Case study\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D89F4AD-7768-4A34-B8F4-30E12F79C935}|Book Model Validation Case study.csproj|d:\\.net hexaware\\mvc case study\\book model validation case study\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D89F4AD-7768-4A34-B8F4-30E12F79C935}|Book Model Validation Case study.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D89F4AD-7768-4A34-B8F4-30E12F79C935}|Book Model Validation Case study.csproj|d:\\.net hexaware\\mvc case study\\book model validation case study\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D89F4AD-7768-4A34-B8F4-30E12F79C935}|Book Model Validation Case study.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D89F4AD-7768-4A34-B8F4-30E12F79C935}|Book Model Validation Case study.csproj|d:\\.net hexaware\\mvc case study\\book model validation case study\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D89F4AD-7768-4A34-B8F4-30E12F79C935}|Book Model Validation Case study.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +18,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\.NET HEXAWARE\\MVC Case study\\Book Model Validation Case study\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\.NET HEXAWARE\\MVC Case study\\Book Model Validation Case study\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-14T05:48:39.668Z",
               "IsPinned": true,
@@ -36,13 +36,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\.NET HEXAWARE\\MVC Case study\\Book Model Validation Case study\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\.NET HEXAWARE\\MVC Case study\\Book Model Validation Case study\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABkAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-14T07:15:54.425Z",
               "EditorCaption": ""

@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.NET HEXAWARE\\MVC Case study\\MVC Layouts Case study\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0F59BC-0C27-4453-BAB3-92A4F2450113}|MVC Layouts Case study.csproj|d:\\.net hexaware\\mvc case study\\mvc layouts case study\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE0F59BC-0C27-4453-BAB3-92A4F2450113}|MVC Layouts Case study.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0F59BC-0C27-4453-BAB3-92A4F2450113}|MVC Layouts Case study.csproj|d:\\.net hexaware\\mvc case study\\mvc layouts case study\\views\\login\\trainerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EE0F59BC-0C27-4453-BAB3-92A4F2450113}|MVC Layouts Case study.csproj|solutionrelative:views\\login\\trainerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0F59BC-0C27-4453-BAB3-92A4F2450113}|MVC Layouts Case study.csproj|d:\\.net hexaware\\mvc case study\\mvc layouts case study\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0F59BC-0C27-4453-BAB3-92A4F2450113}|MVC Layouts Case study.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.NET HEXAWARE\\MVC Case study\\MVC Layouts Case study\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\.NET HEXAWARE\\MVC Case study\\MVC Layouts Case study\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T14:04:57.321Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrainerLogin.cshtml",
+              "DocumentMoniker": "D:\\.NET HEXAWARE\\MVC Case study\\MVC Layouts Case study\\Views\\Login\\TrainerLogin.cshtml",
+              "RelativeDocumentMoniker": "Views\\Login\\TrainerLogin.cshtml",
+              "ToolTip": "D:\\.NET HEXAWARE\\MVC Case study\\MVC Layouts Case study\\Views\\Login\\TrainerLogin.cshtml",
+              "RelativeToolTip": "Views\\Login\\TrainerLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T14:34:53.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\.NET HEXAWARE\\MVC Case study\\MVC Layouts Case study\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\.NET HEXAWARE\\MVC Case study\\MVC Layouts Case study\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-16T14:29:47.584Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

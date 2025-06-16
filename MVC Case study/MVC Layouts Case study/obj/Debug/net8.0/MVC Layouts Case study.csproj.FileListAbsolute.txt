@@ -1,0 +1,34 @@
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\bin\Debug\net8.0\appsettings.Development.json
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\bin\Debug\net8.0\appsettings.json
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\bin\Debug\net8.0\MVC Layouts Case study.staticwebassets.endpoints.json
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\bin\Debug\net8.0\MVC Layouts Case study.exe
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\bin\Debug\net8.0\MVC Layouts Case study.deps.json
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\bin\Debug\net8.0\MVC Layouts Case study.runtimeconfig.json
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\bin\Debug\net8.0\MVC Layouts Case study.dll
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\bin\Debug\net8.0\MVC Layouts Case study.pdb
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\MVC Layouts Case study.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\MVC Layouts Case study.AssemblyInfoInputs.cache
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\MVC Layouts Case study.AssemblyInfo.cs
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\MVC Layouts Case study.csproj.CoreCompileInputs.cache
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\MVC Layouts Case study.MvcApplicationPartsAssemblyInfo.cache
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\MVC Layouts Case study.RazorAssemblyInfo.cache
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\MVC Layouts Case study.RazorAssemblyInfo.cs
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\MVC Layouts Case study.sourcelink.json
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\scopedcss\bundle\MVC Layouts Case study.styles.css
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\staticwebassets.build.json
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\staticwebassets.development.json
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\staticwebassets\msbuild.MVC Layouts Case study.Microsoft.AspNetCore.StaticWebAssets.props
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\staticwebassets\msbuild.MVC Layouts Case study.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\staticwebassets\msbuild.build.MVC Layouts Case study.props
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MVC Layouts Case study.props
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MVC Layouts Case study.props
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\staticwebassets.pack.json
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\MVC Layouts Case study.dll
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\refint\MVC Layouts Case study.dll
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\MVC Layouts Case study.pdb
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\MVC Layouts Case study.genruntimeconfig.cache
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\obj\Debug\net8.0\ref\MVC Layouts Case study.dll
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\bin\Debug\net8.0\libman.json
+D:\.NET HEXAWARE\MVC Case study\MVC Layouts Case study\bin\Debug\net8.0\MVC Layouts Case study.staticwebassets.runtime.json
