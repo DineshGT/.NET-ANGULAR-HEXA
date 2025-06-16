@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NUnitMoqCaseStudy": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

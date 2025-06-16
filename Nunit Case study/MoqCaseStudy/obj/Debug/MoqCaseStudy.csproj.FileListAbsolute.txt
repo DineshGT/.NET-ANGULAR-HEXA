@@ -1,2 +1,0 @@
-C:\Users\Dinesh G T\source\repos\MoqCaseStudy\obj\Debug\MoqCaseStudy.csproj.AssemblyReference.cache
-C:\Users\Dinesh G T\source\repos\MoqCaseStudy\obj\Debug\MoqCaseStudy.csproj.CoreCompileInputs.cache
