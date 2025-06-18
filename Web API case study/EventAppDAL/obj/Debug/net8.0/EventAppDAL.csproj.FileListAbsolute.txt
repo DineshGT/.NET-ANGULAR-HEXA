@@ -1,0 +1,15 @@
+D:\.NET HEXAWARE\MVC Case study\dotNET Core web api\EventAppDAL\bin\Debug\net8.0\EventAppDAL.deps.json
+D:\.NET HEXAWARE\MVC Case study\dotNET Core web api\EventAppDAL\bin\Debug\net8.0\EventAppDAL.runtimeconfig.json
+D:\.NET HEXAWARE\MVC Case study\dotNET Core web api\EventAppDAL\bin\Debug\net8.0\EventAppDAL.dll
+D:\.NET HEXAWARE\MVC Case study\dotNET Core web api\EventAppDAL\bin\Debug\net8.0\EventAppDAL.pdb
+D:\.NET HEXAWARE\MVC Case study\dotNET Core web api\EventAppDAL\obj\Debug\net8.0\EventAppDAL.csproj.AssemblyReference.cache
+D:\.NET HEXAWARE\MVC Case study\dotNET Core web api\EventAppDAL\obj\Debug\net8.0\EventAppDAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET HEXAWARE\MVC Case study\dotNET Core web api\EventAppDAL\obj\Debug\net8.0\EventAppDAL.AssemblyInfoInputs.cache
+D:\.NET HEXAWARE\MVC Case study\dotNET Core web api\EventAppDAL\obj\Debug\net8.0\EventAppDAL.AssemblyInfo.cs
+D:\.NET HEXAWARE\MVC Case study\dotNET Core web api\EventAppDAL\obj\Debug\net8.0\EventAppDAL.csproj.CoreCompileInputs.cache
+D:\.NET HEXAWARE\MVC Case study\dotNET Core web api\EventAppDAL\obj\Debug\net8.0\EventAppDAL.sourcelink.json
+D:\.NET HEXAWARE\MVC Case study\dotNET Core web api\EventAppDAL\obj\Debug\net8.0\EventAppDAL.dll
+D:\.NET HEXAWARE\MVC Case study\dotNET Core web api\EventAppDAL\obj\Debug\net8.0\refint\EventAppDAL.dll
+D:\.NET HEXAWARE\MVC Case study\dotNET Core web api\EventAppDAL\obj\Debug\net8.0\EventAppDAL.pdb
+D:\.NET HEXAWARE\MVC Case study\dotNET Core web api\EventAppDAL\obj\Debug\net8.0\EventAppDAL.genruntimeconfig.cache
+D:\.NET HEXAWARE\MVC Case study\dotNET Core web api\EventAppDAL\obj\Debug\net8.0\ref\EventAppDAL.dll
