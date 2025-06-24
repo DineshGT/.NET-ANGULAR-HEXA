@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\.NET HEXAWARE\\MVC Case study\\EventManagementSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A451165-3BEC-4E1E-97E4-7F84F44BAD7D}|Event.API\\Event.API.csproj|d:\\.net hexaware\\mvc case study\\eventmanagementsolution\\event.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A451165-3BEC-4E1E-97E4-7F84F44BAD7D}|Event.API\\Event.API.csproj|solutionrelative:event.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A451165-3BEC-4E1E-97E4-7F84F44BAD7D}|Event.API\\Event.API.csproj|d:\\.net hexaware\\mvc case study\\eventmanagementsolution\\event.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A451165-3BEC-4E1E-97E4-7F84F44BAD7D}|Event.API\\Event.API.csproj|solutionrelative:event.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\.NET HEXAWARE\\MVC Case study\\EventManagementSolution\\Event.DAL\\Migrations\\20250623174611_Initialcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Event.DAL\\Migrations\\20250623174611_Initialcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A451165-3BEC-4E1E-97E4-7F84F44BAD7D}|Event.API\\Event.API.csproj|d:\\.net hexaware\\mvc case study\\eventmanagementsolution\\event.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A451165-3BEC-4E1E-97E4-7F84F44BAD7D}|Event.API\\Event.API.csproj|solutionrelative:event.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\.NET HEXAWARE\\MVC Case study\\EventManagementSolution\\Event.API\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Event.API\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\.NET HEXAWARE\\MVC Case study\\EventManagementSolution\\Event.API\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Event.API\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:49:43.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\.NET HEXAWARE\\MVC Case study\\EventManagementSolution\\Event.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Event.API\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\.NET HEXAWARE\\MVC Case study\\EventManagementSolution\\Event.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Event.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAARAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\.NET HEXAWARE\\MVC Case study\\EventManagementSolution\\Event.API\\Program.cs",
+              "RelativeDocumentMoniker": "Event.API\\Program.cs",
+              "ToolTip": "D:\\.NET HEXAWARE\\MVC Case study\\EventManagementSolution\\Event.API\\Program.cs",
+              "RelativeToolTip": "Event.API\\Program.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAiwDsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:48:51.396Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250623174611_Initialcase.cs",
-              "DocumentMoniker": "D:\\.NET HEXAWARE\\MVC Case study\\EventManagementSolution\\Event.DAL\\Migrations\\20250623174611_Initialcase.cs",
-              "RelativeDocumentMoniker": "Event.DAL\\Migrations\\20250623174611_Initialcase.cs",
-              "ToolTip": "D:\\.NET HEXAWARE\\MVC Case study\\EventManagementSolution\\Event.DAL\\Migrations\\20250623174611_Initialcase.cs",
-              "RelativeToolTip": "Event.DAL\\Migrations\\20250623174611_Initialcase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-23T17:46:12.041Z",
+              "WhenOpened": "2025-06-24T07:37:24.424Z",
               "EditorCaption": ""
             }
           ]

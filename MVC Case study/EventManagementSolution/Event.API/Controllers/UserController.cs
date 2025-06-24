@@ -5,9 +5,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Event.API.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
-    //[Authorize(Roles = "Admin")]
     public class UserController : ControllerBase
     {
         private readonly IUserRepository _userRepo;
