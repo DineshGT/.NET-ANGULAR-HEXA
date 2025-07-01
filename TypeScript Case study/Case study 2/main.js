@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const enum_1 = require("./Models/enum");
+const studentService_1 = require("./Services/studentService");
+const std1 = new studentService_1.studentService("Dinesh", 21, enum_1.course.Angular, true);
+const std2 = new studentService_1.studentService("Arun", 22, enum_1.course.Nodejs, false);
+const std3 = new studentService_1.studentService("Mathew", 17, enum_1.course.Angular, false);
+std1.displayDetails();
+std2.displayDetails();
+std3.displayDetails();
