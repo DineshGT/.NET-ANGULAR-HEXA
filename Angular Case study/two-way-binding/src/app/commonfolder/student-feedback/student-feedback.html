@@ -1,0 +1,28 @@
+<div class="feedback-form">
+  <h2>Student Feedback Form</h2>
+
+  <label>Student Name:</label>
+  <input type="text" [(ngModel)]="feedback.studentName" />
+
+  <label>Course Name:</label>
+  <select [(ngModel)]="feedback.courseName">
+    <option value="" disabled>Select course</option>
+    <option *ngFor="let course of courses" [value]="course">{{ course }}</option>
+  </select>
+
+  <label>Rating (1–5):</label>
+  <input type="number" min="1" max="5" [(ngModel)]="feedback.rating" />
+
+  <label>Comments:</label>
+  <textarea rows="3" [(ngModel)]="feedback.comments"></textarea>
+</div>
+
+<div class="preview">
+  <h3>Live Preview</h3>
+  <p><strong>Name:</strong> {{ feedback.studentName }}</p>
+  <p><strong>Course:</strong> {{ feedback.courseName }}</p>
+  <p><strong>Rating:</strong> {{ feedback.rating }}</p>
+  <p><strong>Comments:</strong> {{ feedback.comments }}</p>
+</div>
+
+
