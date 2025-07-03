@@ -1,0 +1,11 @@
+<h1>course-catalog works!</h1>
+
+
+<div *ngFor="let course of courses" class="course-card">
+
+    <h2>{{course.title | uppercase}}</h2>
+    <p><strong>Instructor:</strong>{{course.instructor | lowercase}}</p>
+    <p><strong>Start Date:</strong> {{ course.startDate | date: 'dd/MM/yyyy' }}</p>
+    <p><strong>Price:</strong> {{ course.price | currency }}</p>
+    <p><strong>Description:</strong> {{ course.description | slice:0:30 }}...</p>
+</div>
