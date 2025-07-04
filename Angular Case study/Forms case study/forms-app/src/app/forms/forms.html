@@ -1,0 +1,37 @@
+<form class="p-4 border rounded bg-black text-info " #form="ngForm" (ngSubmit)="onSubmit(form)">
+  <label>Full Name:
+    <input type="text" name="fullName" [(ngModel)]="user.fullName" required />
+  </label><br>
+
+  <label>Email:
+    <input type="email" name="email" [(ngModel)]="user.email" required email />
+  </label><br>
+
+  <label>Gender:</label>
+  <label><input type="radio" name="gender" value="Male" [(ngModel)]="user.gender" required /> Male</label>
+  <label><input type="radio" name="gender" value="Female" [(ngModel)]="user.gender" /> Female</label>
+  <label><input type="radio" name="gender" value="Other" [(ngModel)]="user.gender" /> Other</label><br>
+
+  <label>Country:
+    <select name="country" [(ngModel)]="user.country" required>
+      <option value="">Select</option>
+      <option value="India">India</option>
+      <option value="USA">USA</option>
+      <option value="UK">UK</option>
+    </select>
+  </label><br>
+
+  <label>
+    <input type="checkbox" name="terms" [(ngModel)]="user.terms" required /> I agree to terms
+  </label><br>
+
+  <button class="btn btn-primary m-2" type="submit">Register</button>
+</form>
+
+<hr>
+
+<div class="card bg-black m-3 p-2 text-info" *ngIf="submittedData">
+  <h3>Submitted Data:</h3>
+  <pre>{{ submittedData | json }}</pre>
+</div>
+
