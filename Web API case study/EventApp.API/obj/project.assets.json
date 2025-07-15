@@ -5184,11 +5184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.NET HEXAWARE\\MVC Case study\\dotNET Core web api\\EventApp.API\\EventApp.API.csproj",
+      "projectUniqueName": "D:\\.NET HEXAWARE\\Web API case study\\EventApp.API\\EventApp.API.csproj",
       "projectName": "EventApp.API",
-      "projectPath": "D:\\.NET HEXAWARE\\MVC Case study\\dotNET Core web api\\EventApp.API\\EventApp.API.csproj",
+      "projectPath": "D:\\.NET HEXAWARE\\Web API case study\\EventApp.API\\EventApp.API.csproj",
       "packagesPath": "C:\\Users\\Dinesh G T\\.nuget\\packages\\",
-      "outputPath": "D:\\.NET HEXAWARE\\MVC Case study\\dotNET Core web api\\EventApp.API\\obj\\",
+      "outputPath": "D:\\.NET HEXAWARE\\Web API case study\\EventApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5209,8 +5209,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\.NET HEXAWARE\\MVC Case study\\dotNET Core web api\\EventAppDAL\\EventAppDAL.csproj": {
-              "projectPath": "D:\\.NET HEXAWARE\\MVC Case study\\dotNET Core web api\\EventAppDAL\\EventAppDAL.csproj"
+            "D:\\.NET HEXAWARE\\Web API case study\\EventAppDAL\\EventAppDAL.csproj": {
+              "projectPath": "D:\\.NET HEXAWARE\\Web API case study\\EventAppDAL\\EventAppDAL.csproj"
             }
           }
         }

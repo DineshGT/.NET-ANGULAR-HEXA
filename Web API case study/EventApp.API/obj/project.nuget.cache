@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1d6GXGtWhLU=",
+  "dgSpecHash": "6Hnbf9oDcQc=",
   "success": true,
-  "projectFilePath": "D:\\.NET HEXAWARE\\MVC Case study\\dotNET Core web api\\EventApp.API\\EventApp.API.csproj",
+  "projectFilePath": "D:\\.NET HEXAWARE\\Web API case study\\EventApp.API\\EventApp.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dinesh G T\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Dinesh G T\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

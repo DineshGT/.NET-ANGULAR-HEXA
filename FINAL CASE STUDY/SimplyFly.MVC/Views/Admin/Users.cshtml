@@ -1,0 +1,88 @@
+﻿@model List<SimplyFly.MVC.Models.UserUpdateViewModel>
+@using System.Linq;
+
+@{
+    ViewData["Title"] = "Manage Users";
+
+    var usersOnly = Model.Where(u =>
+        !string.Equals(u.Role, "Owner", StringComparison.OrdinalIgnoreCase) &&
+        !string.Equals(u.Role, "Admin", StringComparison.OrdinalIgnoreCase)).ToList();
+}
+
+<style>
+    body {
+        background: linear-gradient(to right, #e3f2fd, #d0e7ff);
+    }
+
+    .card-custom {
+        border-radius: 12px;
+    }
+
+    .btn-outline-info:hover,
+    .btn-outline-warning:hover,
+    .btn-outline-danger:hover {
+        opacity: 0.9;
+        transform: scale(1.03);
+        transition: 0.2s ease;
+    }
+
+    .table th {
+        background-color: #0d6efd;
+        color: white;
+    }
+</style>
+
+<div class="container mt-5">
+    <h2 class="text-primary mb-4">Manage Users</h2>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">@TempData["Error"]</div>
+    }
+
+    <div class="card shadow border-0 card-custom">
+        <div class="card-body bg-white">
+            <table class="table table-hover table-bordered mt-3">
+                <thead class="text-center">
+                    <tr>
+                        <th>User ID</th>
+                        <th>Name</th>
+                        <th>Gender</th>
+                        <th>Address</th>
+                        <th>Contact Number</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var user in usersOnly)
+                    {
+                        <tr>
+                            <td>@user.UserId</td>
+                            <td>@user.Name</td>
+                            <td>@user.Gender</td>
+                            <td>@user.Address</td>
+                            <td>@user.ContactNumber</td>
+                            <td class="text-center">
+                                <a asp-action="UserDetails" asp-route-id="@user.UserId" class="btn btn-sm btn-outline-warning me-1">View</a>
+                                <a asp-action="Edit" asp-controller="Admin" asp-route-id="@user.UserId" class="btn btn-sm btn-outline-info me-1">Manage</a>
+                                <form asp-action="DeleteUser" asp-route-id="@user.UserId" method="post" class="d-inline" onsubmit="return confirm('Delete this user?');">
+                                    @Html.AntiForgeryToken()
+                                    <button type="submit" class="btn btn-sm btn-outline-danger">Delete</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <div class="text-end">
+                <a asp-action="Dashboard" class="btn btn-light border text-dark mt-2">Back</a>
+            </div>
+        </div>
+    </div>
+</div>

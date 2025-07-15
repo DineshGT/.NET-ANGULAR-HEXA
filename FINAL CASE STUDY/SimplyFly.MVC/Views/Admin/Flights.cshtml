@@ -1,0 +1,60 @@
+﻿@model List<SimplyFly.MVC.Models.FlightViewModel>
+@{
+    ViewData["Title"] = "Manage Flights";
+}
+<style>
+    body {
+        background: linear-gradient(to right, #e3f2fd, #d0e7ff);
+    }
+</style>
+
+<div class="container mt-4">
+    <h2 class="text-primary fw-bold">Manage Flights</h2>
+
+    <table class="table table-bordered table-hover mt-3 bg-white">
+        <thead class="table-primary">
+            <tr>
+                <th>Flight Name</th>
+                <th>Flight Number</th>
+                <th>Total Seats</th>
+                <th>Owner ID</th>
+                <th>Approved</th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var flight in Model)
+            {
+                <tr>
+                    <td>@flight.FlightName</td>
+                    <td>@flight.FlightNumber</td>
+                    <td>@flight.TotalSeats</td>
+                    <td>@flight.OwnerId</td>
+                    <td>@(flight.IsApproved ? "Yes" : "No")</td>
+                    <td class="text-center">
+                        <a asp-action="FlightDetails" asp-route-id="@flight.FlightId" class="btn btn-sm btn-outline-warning me-1">View</a>
+
+                        @if (!flight.IsApproved)
+                        {
+                            <form asp-action="ApproveFlight" asp-route-id="@flight.FlightId" method="post" class="d-inline">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-sm btn-outline-success me-1">Approve</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <a asp-action="EditFlight" asp-route-id="@flight.FlightId" class="btn btn-sm btn-outline-info me-1">Manage</a>
+                        }
+
+                        <form asp-action="DeleteFlight" asp-route-id="@flight.FlightId" method="post" class="d-inline" onsubmit="return confirm('Delete this flight?');">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-sm btn-outline-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <a asp-action="Dashboard" class="btn btn-light text-dark">Back</a>
+</div>

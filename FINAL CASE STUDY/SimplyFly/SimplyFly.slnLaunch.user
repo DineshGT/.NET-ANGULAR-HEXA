@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "SimplyFly.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\SimplyFly.MVC\\SimplyFly.MVC.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

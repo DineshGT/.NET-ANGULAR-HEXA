@@ -1,0 +1,70 @@
+﻿@model SimplyFly.MVC.DTO.Auth.RegisterRequest
+@{
+    ViewData["Title"] = "Admin Registration";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card shadow-lg border-white">
+                <div class="card-header bg-black text-white text-center">
+                    <h3>Register New Admin</h3>
+                </div>
+
+                <div class="card-body bg-black text-white">
+                    <!-- Validation summary -->
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    <form asp-action="Register" method="post">
+                        <div class="form-group mb-3">
+                            <label asp-for="Name" class="form-label text-white"></label>
+                            <input asp-for="Name" class="form-control bg-dark text-white border-light"
+                                   placeholder="Full name" style="::placeholder { color: black; }" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Email" class="form-label text-white"></label>
+                            <input asp-for="Email" class="form-control bg-dark text-white border-light"
+                                   placeholder="Email address" style="::placeholder { color: black; }" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label asp-for="Password" class="form-label text-white"></label>
+                            <input asp-for="Password" type="password" class="form-control bg-dark text-white border-light"
+                                   placeholder="Password" style="::placeholder { color: black; }" />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+
+                        <input asp-for="Role" value="Admin" hidden />
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-black bg-white text-black">Register</button>
+                        </div>
+                    </form>
+
+
+
+                    @* Server‑side error message *@
+                    @if (ViewBag.Error != null)
+                    {
+                        <div class="alert alert-danger mt-3">
+                            @ViewBag.Error
+                        </div>
+                    }
+                </div>
+
+                <div class="card-footer text-center text-muted text-white bg-black">
+                    <small>&copy; SimplyFly Admin Portal</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

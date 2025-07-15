@@ -1,0 +1,52 @@
+﻿@model SimplyFly.MVC.Models.FlightViewModel
+@{
+    ViewData["Title"] = "Flight Details";
+}
+<style>
+    body {
+        background: linear-gradient(to right, #e3f2fd, #d0e7ff);
+    }
+</style>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow border-0">
+                <div class="card-header text-center bg-white">
+                    <h3 class="text-primary">Flight Details</h3>
+                </div>
+                <div class="card-body bg-white text-dark">
+                    <dl class="row mb-0">
+                        <dt class="col-4">Flight ID</dt>
+                        <dd class="col-8">@Model.FlightId</dd>
+                        <dt class="col-4">Name</dt>
+                        <dd class="col-8">@Model.FlightName</dd>
+                        <dt class="col-4">Number</dt>
+                        <dd class="col-8">@Model.FlightNumber</dd>
+                        <dt class="col-4">Total Seats</dt>
+                        <dd class="col-8">@Model.TotalSeats</dd>
+                        <dt class="col-4">Owner ID</dt>
+                        <dd class="col-8">@Model.OwnerId</dd>
+                        <dt class="col-4">Approved</dt>
+                        <dd class="col-8">@(Model.IsApproved ? "Yes" : "No")</dd>
+                    </dl>
+                </div>
+                <div class="card-footer bg-white d-flex justify-content-center gap-2 flex-wrap">
+                    @if (!Model.IsApproved)
+                    {
+                        <form asp-action="ApproveFlight" asp-route-id="@Model.FlightId" method="post" class="d-inline">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-outline-success btn-sm">Approve</button>
+                        </form>
+                    }
+                    <a asp-action="EditFlight" asp-controller="Admin" asp-route-id="@Model.FlightId" class="btn btn-outline-info btn-sm">Manage</a>
+                    <form asp-action="DeleteFlight" asp-route-id="@Model.FlightId" method="post" class="d-inline" onsubmit="return confirm('Delete this flight?');">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-outline-danger btn-sm">Delete</button>
+                    </form>
+                    <a asp-action="Flights" class="btn btn-light text-dark btn-sm">Back to list</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

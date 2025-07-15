@@ -1,0 +1,90 @@
+﻿@model SimplyFly.MVC.Models.UserUpdateViewModel
+@{
+    ViewData["Title"] = "User Details";
+}
+
+<style>
+    body {
+        background: linear-gradient(to right, #e3f2fd, #d0e7ff);
+    }
+
+    .card-custom {
+        border-radius: 12px;
+    }
+
+    .btn-outline-info:hover,
+    .btn-outline-danger:hover,
+    .btn-light:hover {
+        opacity: 0.9;
+        transform: scale(1.03);
+        transition: 0.2s ease;
+    }
+
+    dt {
+        font-weight: 600;
+        color: #0d6efd;
+    }
+
+    dd {
+        color: #212529;
+    }
+
+    .card-header {
+        background-color: #0d6efd;
+        color: white;
+        border-radius: 12px 12px 0 0;
+    }
+</style>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card shadow card-custom border-0">
+                <div class="card-header text-center">
+                    <h3 class="mb-0">User Details</h3>
+                </div>
+
+                <div class="card-body bg-white">
+                    <dl class="row mb-0">
+                        <dt class="col-4">User ID</dt>
+                        <dd class="col-8">@Model.UserId</dd>
+                        <dt class="col-4">Name</dt>
+                        <dd class="col-8">@Model.Name</dd>
+                        <dt class="col-4">Gender</dt>
+                        <dd class="col-8">@Model.Gender</dd>
+                        <dt class="col-4">Phone</dt>
+                        <dd class="col-8">@Model.ContactNumber</dd>
+                        <dt class="col-4">Address</dt>
+                        <dd class="col-8">@Model.Address</dd>
+                        <dt class="col-4">Role</dt>
+                        <dd class="col-8">@Model.Role</dd>
+                    </dl>
+                </div>
+
+                <div class="card-footer bg-white text-center d-flex justify-content-center gap-2 flex-wrap">
+                    <a asp-action="Edit" asp-controller="Admin" asp-route-id="@Model.UserId" class="btn btn-sm btn-outline-info">
+                        Edit
+                    </a>
+
+                    <form asp-action="DeleteUser" asp-route-id="@Model.UserId" method="post" class="d-inline" onsubmit="return confirm('Delete this user?');">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-sm btn-outline-danger">Delete</button>
+                    </form>
+
+                    @if (@Model.Role == "User")
+                    {
+                        <a asp-action="Users" class="btn btn-sm btn-light border">Back to list</a>
+                    }
+                    else
+                    {
+                        <a asp-action="Owners" class="btn btn-sm btn-light border">Back to list</a>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

@@ -1,0 +1,67 @@
+﻿@model SimplyFly.MVC.DTO.Auth.RequestLogin
+@{
+    ViewData["Title"] = "Admin Login";
+}
+<style>
+    body {
+        background: linear-gradient(to right, #e3f2fd, #d0e7ff);
+    }
+
+    .form-card {
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0, 123, 255, 0.15);
+    }
+</style>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card form-card border-0">
+                <div class="card-header text-center bg-white border-0">
+                    <h3 class="text-primary">Admin Login</h3>
+                </div>
+                <div class="card-body">
+
+                    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                    @if (ViewBag.ErrorMessage != null)
+                    {
+                        <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+                    }
+
+                    @if (ViewBag.UserNotFound != null)
+                    {
+                        <div class="alert alert-light border d-flex flex-column flex-md-row align-items-start align-items-md-center">
+                            <span class="me-md-3">Are you new to this app?</span>
+                            <a asp-controller="Admin" asp-action="Register" class="btn btn-outline-primary mt-2 mt-md-0">Register</a>
+                        </div>
+                    }
+
+                    <form asp-action="Login" method="post">
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-primary">Email address</label>
+                            <input type="email" name="Email" class="form-control" id="email" placeholder="Enter email" required />
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="password" class="form-label text-primary">Password</label>
+                            <input type="password" name="Password" class="form-control" id="password" placeholder="Enter password" required />
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer bg-white text-center text-muted">
+                    <small>&copy; SimplyFly Admin Portal</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

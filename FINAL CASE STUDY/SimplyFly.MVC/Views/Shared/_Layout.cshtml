@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SimplyFly Admin</title>
+
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/site.css" rel="stylesheet" asp-append-version="true" />
+    <link href="~/SimplyFly.MVC.styles.css" rel="stylesheet" asp-append-version="true" />
+
+    <style>
+        body {
+            background: linear-gradient(to right, #dbeafe, #3b82f6); /* Light to blue */
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .card-glass {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(8px);
+            border: 1px solid #dee2e6;
+            border-radius: 12px;
+        }
+
+        .btn-hover-scale:hover {
+            transform: scale(1.05);
+            transition: 0.2s ease-in-out;
+        }
+
+        .gradient-header {
+            background: linear-gradient(to right, #1e3a8a, #3b82f6);
+            color: white;
+        }
+    </style>
+</head>
+<body class="d-flex flex-column">
+
+    <!-- Top Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold text-primary" asp-area="" asp-controller="Home" asp-action="Index">SimplyFly Admin</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link text-primary" asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-primary" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a></li>
+                        @if (User?.Identity?.IsAuthenticated ?? false)
+                        {
+                            <li class="nav-item"><a class="nav-link text-danger fw-semibold" asp-controller="Admin" asp-action="Logout">Logout</a></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="p-5 text-center gradient-header">
+        <div class="container">
+            <h1 class="display-5 fw-bold">
+                @(User?.Identity?.IsAuthenticated ?? false ? "Admin Dashboard" : "Welcome to SimplyFly Admin Portal")
+            </h1>
+            <p class="lead">
+                @(User?.Identity?.IsAuthenticated ?? false ? "Choose a module below." : "Manage flights, routes, bookings & more.")
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Section -->
+    <div class="container my-5">
+        @if (!(User?.Identity?.IsAuthenticated ?? false))
+        {
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card card-glass text-center p-4 shadow">
+                        <h4 class="mb-3 text-primary">Welcome Admin</h4>
+                        <p class="mb-4 text-dark">Sign in or register to continue managing SimplyFly.</p>
+                        <div class="d-grid gap-2">
+                            <a asp-controller="Admin" asp-action="Login" class="btn btn-primary btn-hover-scale">Login</a>
+                            <a asp-controller="Admin" asp-action="Register" class="btn btn-outline-primary btn-hover-scale">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        else if (ViewContext.RouteData.Values["action"].ToString() == "Index" && ViewContext.RouteData.Values["controller"].ToString() == "Admin")
+        {
+            <div class="row justify-content-center g-4">
+                <div class="col-md-4">
+                    <div class="card card-glass shadow h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h4 class="card-title text-primary">Manage Users</h4>
+                            <p>View and maintain user accounts.</p>
+                            <a asp-controller="User" asp-action="Index" class="btn btn-outline-primary mt-auto btn-hover-scale">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-glass shadow h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h4 class="card-title text-primary">Manage Owners</h4>
+                            <p>Manage airline owners and details.</p>
+                            <a asp-controller="Owner" asp-action="Index" class="btn btn-outline-primary mt-auto btn-hover-scale">Open</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-glass shadow h-100">
+                        <div class="card-body d-flex flex-column">
+                            <h4 class="card-title text-primary">Manage Flights</h4>
+                            <p>Create, update and schedule flights.</p>
+                            <a asp-controller="Flight" asp-action="Index" class="btn btn-outline-primary mt-auto btn-hover-scale">Open</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    @if (ViewContext.RouteData.Values["action"].ToString() != "Index" ||
+    ViewContext.RouteData.Values["controller"].ToString() != "Admin")
+    {
+        <main role="main" class="container pb-5">
+            @RenderBody()
+        </main>
+    }
+
+    <!-- Footer -->
+    <footer class="bg-white border-top text-muted py-3 mt-auto">
+        <div class="container text-center small">
+            &copy; 2025 SimplyFly.MVC |
+            <a asp-area="" asp-controller="Home" asp-action="Privacy" class="text-decoration-none text-primary">Privacy</a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<style>
+    .dashboard-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: none;
+        border-radius: 12px;
+        background-color: #ffffff;
+    }
+
+        .dashboard-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 123, 255, 0.2);
+        }
+
+        .dashboard-card .card-title {
+            color: #0d6efd;
+        }
+
+    body {
+        background: linear-gradient(to right, #e3f2fd, #d0e7ff);
+    }
+</style>
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4 text-primary fw-bold">Welcome, Admin!</h2>
+
+    <div class="row text-center">
+        <!-- Manage Users Card -->
+        <div class="col-md-4 mb-4">
+            <a href="/Admin/Users" class="text-decoration-none text-black">
+                <div class="card dashboard-card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title">👥 Manage Users</h4>
+                        <p class="card-text">View, create, edit, or delete platform users.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Manage Owners Card -->
+        <div class="col-md-4 mb-4">
+            <a href="/Admin/Owners" class="text-decoration-none text-black">
+                <div class="card dashboard-card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title">🧑‍💼 Manage Owners</h4>
+                        <p class="card-text">Handle owner approvals and manage their details.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <!-- Manage Flights Card -->
+        <div class="col-md-4 mb-4">
+            <a href="/Admin/Flights" class="text-decoration-none text-black">
+                <div class="card dashboard-card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h4 class="card-title">✈️ Manage Flights</h4>
+                        <p class="card-text">Assign flights, edit schedules, and manage availability.</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
